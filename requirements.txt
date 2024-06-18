@@ -1,0 +1,9 @@
+composer create-project laravel/laravel projectname # to create laravel project
+composer require laravel/breeze --dev # to create authentication
+php artisan breeze:install # to install breeze authentication tool of laravel
+npm install # to install npm
+npm run build #build npm
+
+php artisan migrate # to migrate to mysql database and other db
+
+
