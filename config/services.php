@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'esewa' => [
+        'base_url' => env('ESEWA_BASE_URL', 'https://esewa.com.np'),
+        'merchant_id' => env('ESEWA_MERCHANT_ID', 'your-merchant-id'),
+        'secret_key' => env('ESEWA_SECRET_KEY', 'your-secret-key'),
+    ],
+
 ];

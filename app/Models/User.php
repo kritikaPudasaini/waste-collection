@@ -19,7 +19,11 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'phone',
+        'address',
         'password',
+        'role_id',
+        'area_id'
     ];
 
     /**
@@ -44,4 +48,19 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function role(){
+        return $this->belongsTo(Role::class);
+    }
+
+    public function payments(){
+        return $this->hasMany(Payment::class);
+    }
+
+    public function area(){
+        return $this->belongsTo(Area::class);
+    }
 }
+
+    
+

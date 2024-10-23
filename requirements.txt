@@ -7,3 +7,6 @@ npm run build #build npm
 php artisan migrate # to migrate to mysql database and other db
 
 
+# For message notification 
+composer require php-flasher/flasher-toastr-laravel
+composer require php-flasher/flasher-toastr-symfony

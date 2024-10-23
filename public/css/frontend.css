@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #538392;
+    background-color: #ffffff;
+    }
+    
+    .navbar {
+    background-color: #004721;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 80px;
+    }
+    
+    .navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    }
+    
+    .navbar .title img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    border-radius: 60%;
+    }
+    
+    .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+    }
+    
+    .navbar-nav .nav-link:hover {
+    background-color: #06c05d;
+    border-radius: 5px;
+    }
+    
+    .main-title {
+    text-align: center;
+    color: #538392;
+    font-size: 3em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    }
+    
+    @keyframes imageAnimation {
+    0% {
+     transform: scale(1);
+    }
+    50% {
+     transform: scale(1.1);
+    }
+    100% {
+     transform: scale(1);
+    }
+    }
+    
+    .content-carousel {
+    padding: 2rem 0;
+    background: rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact {
+    padding: 4rem 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    }
+    
+    .contact h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    }
+    
+    footer {
+    background-color: #004721;
+    padding: 20px 10px;
+    text-align: center;
+    color: white; 
+    }
+    
+    footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    footer h5 {
+    color: white; 
+    font-weight: bold;
+    }
+    
+    footer p {
+    margin-bottom: 0.5rem;
+    color: white; 
+    }
+    
+    footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: white; 
+    }
+    
+    footer ul li {
+    margin-bottom: 0.5rem;
+    }
+    
+    footer img {
+    width: 30px; 
+    height: auto;
+    margin-bottom: 0.5rem;
+    }
+    
+    .social-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    justify-content: flex-right; 
+    }
+    
+    .social-link img {
+    margin-left: 130px; 
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px; 
+    flex-shrink: 0; 
+    }
+    
+    .social-link span {
+    font-size: 1rem; 
+    line-height: 1.2; 
+    white-space: nowrap;
+    text-align: right; 
+    }
+    
+    .list-unstyled li a {
+    color: white; 
+    text-decoration: none; 
+    }
+    
+    .list-unstyled li a:hover {
+    text-decoration: underline;
+    }
+    
+    .social-links a:hover {
+    color: white;
+    }
+    
+    @media (max-width: 600px) {
+    .navbar .title {
+     font-size: 18px;
+    }
+    
+    .navbar .title img {
+     width: 70px;
+    }
+    
+    .navbar-nav .nav-link {
+     font-size: 16px;
+    }
+    
+    .main-title {
+     font-size: 2em;
+     padding: 5px;
+    }
+    
+    .contact {
+     padding: 2rem 0;
+    }
+    
+    .contact h2 {
+     font-size: 1.5em;
+    }
+    
+    .contact .form-group label,
+    .contact .form-control,
+    .contact .btn {
+     font-size: 0.9em;
+    }
+    }
+    
+    .full-width-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+    }
+    
+    .full-width-section h2 {
+    color: black;
+    font-weight: bold;
+    }
+    
+    .full-width-section p {
+    color: black;
+    font-size: 1.1rem;
+    }
+    
+    .facility-logo {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add white shadow */
+    }
+    
+    .facility-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    .facility-item span {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: black;
+    }
+    
+    /*about us page*/
+    .about-us {
+    background-color: white;
+    padding: 2rem 0;
+    }
+    .about-us h2 {
+    color: black;
+    font-weight: bold;
+    }
+    
+    .about-us p {
+    color: black;
+    font-size: 1.1rem;
+    }
+    
+    .about-us img {
+    animation: zoomInOut 2s ease-in-out infinite alternate;
+    }
+    
+    @keyframes zoomInOut {
+    from {
+     transform: scale(1);
+    }
+    to {
+     transform: scale(1.1);
+    }
+    }
+    
+    /*support page*/
+    .contact-section {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    }
+    
+    .contact-form, .contact-info {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    }
+    
+    .contact-form:hover, .contact-info:hover {
+    transform: translateY(-5px);
+    }
+    
+    .contact-info {
+    background-color: #545454;
+    color: #fff;
+    }
+    
+    .contact-form h2 {
+    color: black;
+    font-weight: bold;
+    }
+    
+    .contact-form p {
+    color: black;
+    font-size: 1.2em; 
+    margin-bottom: 20px;
+    }
+    
+    .contact-info h3, .contact-info p {
+    margin: 0;
+    margin-bottom: 20px;
+    }
+    
+    .form-group {
+    margin-bottom: 1.5rem;
+    }
+    
+    .btn-custom {
+    background-color: #004721;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    }
+    
+    .btn-custom:hover {
+    background-color: #003b19;
+    color: white;
+    }
+    
+    .contact-info p {
+    margin-bottom: 10px;
+    }
+    
+    .contact-info p i {
+    margin-right: 10px;
+    }
+    
+    .contact-info p a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .contact-info p a:hover {
+    text-decoration: underline;
+    }
+    
+    .highlight {
+    color: #D4AF37;
+    }
+    
+    .map-image {
+    width: 100%;
+    height: 2000px !important;; 
+    object-fit: cover; 
+    margin-top: 30px;
+    }
+    
+    .image-container {
+    text-align: left;
+    margin-top: 30px;
+    }
+    
+    .image-container img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .custom-image {
+    height: 475px; 
+    width: 500px;
+    margin-left:10px; 
+    }
+    
+    @keyframes fadeIn {
+    from {
+     opacity: 0;
+    }
+    to {
+     opacity: 1;
+    }
+    }
+    
+    

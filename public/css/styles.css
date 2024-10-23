@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+    background: url('https://via.placeholder.com/600x800') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.left .content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.left h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.social-signup {
+    margin: 20px 0;
+}
+
+.social-buttons button {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ddd;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.signin {
+    margin-top: 20px;
+}
+
+.signin a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}
